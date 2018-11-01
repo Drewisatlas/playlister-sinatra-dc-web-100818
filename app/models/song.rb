@@ -1,8 +1,6 @@
 class Song < ActiveRecord::Base
-  belongs_to :artist
-
-  def initialize(name, artist)
-    @name = name
-    @artist = name
+  belongs_to :artists
+  has_many :song_genres
+  has_many :genres, through: :song_genres
   end
 end
