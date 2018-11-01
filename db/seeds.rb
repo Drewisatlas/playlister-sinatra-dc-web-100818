@@ -1,2 +1,15 @@
-# Add seed data here. Seed your database with `rake db:seed`
+artist1 = Artist.new("KISS")
+artist2 = Artist.new("Fall Out Boy")
+artist3 = Artist.new"All Time Low")
+artist4 = Artist.new("Kesha")
+artist5 = Artist.new("Justin Beiber")
+artist6 = Artist.new("Jay-Z")
+artist7 = Artist.new("DMX")
 
+song1 = Song.new("Love Gun", artist1)
+song2 = Song.new("America's Sweetheart", artist2)
+song3 = Song.new("Coffeeshop Soundtrack", artist3)
+song4 = Song.new("Your Love is My Drug", artist4)
+song5 = Song.new("Sorry", artist5)
+song6 = Song.new("99 Problems", artist6)
+song7 = Song.new("Up In Here", artist7)
