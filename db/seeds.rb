@@ -1,19 +1,3 @@
-artist1 = Artist.create(name:"KISS")
-artist2 = Artist.create(name:"Fall Out Boy")
-artist3 = Artist.create(name:"All Time Low")
-artist4 = Artist.create(name:"Kesha")
-artist5 = Artist.create(name:"Justin Beiber")
-artist6 = Artist.create(name:"Jay-Z")
-artist7 = Artist.create(name:"DMX")
+require_relative '../config/environment'
 
-song1 = Song.new("Love Gun", artist1)
-song2 = Song.new("America's Sweetheart", artist2)
-song3 = Song.new("Coffeeshop Soundtrack", artist3)
-song4 = Song.new("Your Love is My Drug", artist4)
-song5 = Song.new("Sorry", artist5)
-song6 = Song.new("99 Problems", artist6)
-song7 = Song.new("Up In Here", artist7)
-
-genre1 = Genre.new("Rock")
-genre2 = Genre.new("Pop")
-genre3 = Genre.new("Rap")
+LibraryParser.parse
