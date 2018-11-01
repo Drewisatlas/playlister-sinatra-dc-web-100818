@@ -13,3 +13,7 @@ song4 = Song.new("Your Love is My Drug", artist4)
 song5 = Song.new("Sorry", artist5)
 song6 = Song.new("99 Problems", artist6)
 song7 = Song.new("Up In Here", artist7)
+
+genre1 = Genre.new("Rock")
+genre2 = Genre.new("Pop")
+genre3 = Genre.new("Rap")
